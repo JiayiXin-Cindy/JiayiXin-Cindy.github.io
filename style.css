@@ -1,0 +1,228 @@
+/* master */
+
+body {
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-col {
+    display: flex;
+    border-bottom: 2px solid rgb(94, 94, 94);
+}
+
+.nav > .left-col > div {
+    margin-right: 19px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+
+}
+
+.nav-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.s;
+}
+
+.nav-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link a:hover {
+    color: black;
+}
+
+/* cover */
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    margin-bottom:70px;
+}
+
+.cover-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 1000px;
+    background-size: cover; /* have images cut to be the same sizes */
+    background-position:50% 15%;
+    background-repeat: no-repeat;
+}
+
+.cover-text .cover-subtitle h1 {
+    color:black;
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.cover-text .cover-subtitle h2 {
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cover-text .cover-subtitle p1 {
+    color:black;
+    font-size: 20px;
+    font-weight: 300;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+/* portfolio */
+
+.portfolio-items-home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; /* create grids by 3 columns */
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* create grids by 3 columns */
+}
+
+.portfolio-item {
+    position: relative; /* allow flexibility position item s inside it */
+
+}
+
+.portfolio-img {
+    height: 350px;
+    width: 100%;
+    background-size: cover; /* have images cut to be the same sizes */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.img-text {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  /* left to right*/
+    align-items: center;   /* top to bottom */
+    height: 100%;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.img-text .subtitle a {
+    transition: 1s;
+    font-size: 38px;
+    font-weight: 900;
+    color: transparent;
+}
+
+.img-text:hover .subtitle a {
+    font-weight: 900;
+    color: white;
+}
+
+.img-darken {    /* use jaascript to enable/disable this class */ 
+    transition: 1s;
+    filter: brightness(35%);
+}
+
+
+/* About page */
+.two-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile-image img {
+    width: 50%;
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+.profile-content {
+    padding:20px;
+}
+
+.profile-content h1 {
+    color: blue;
+}
+
+.profile-content p {
+    color: black;
+    font-size:20px;
+}
+
+/* pic */
+.pic-two-cols {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.pic-two-colsxl {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pic-two-colsl {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+}
+
+.picture img {
+    width: 90%;
+    margin-left: 120px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.picturel img {
+    width: 80%;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.picturexl img {
+    width: 70%;
+    margin-left: 150px;
+    margin-top: 40px;
+}
+
+.picture-content {
+    margin-left: 50px;
+    padding:30px;
+}
+
+.picture-content h1 {
+    color: blue;
+}
+
+.picture-content p {
+    color: black;
+    font-size: 22px;
+}
