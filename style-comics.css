@@ -1,8 +1,6 @@
-/* master */
-
 body {
     margin: 0px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -36,6 +34,14 @@ body {
     transition: border-bottom 0.s;
 }
 
+.nav > .right-col > div {
+    margin-right: 19px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+
+}
+
+
 .nav-link a {
     color: #8a8a8a;
     text-decoration: none;
@@ -43,7 +49,7 @@ body {
 }
 
 .nav-link:hover {
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
 }
 
 .nav-link a:hover {
@@ -51,7 +57,7 @@ body {
 }
 
 .sen h1 {
-    color:black;
+    color:rgb(80, 80, 80);
     font-size: 20px;
     font-weight: 300;
     text-align: center;
@@ -75,6 +81,7 @@ body {
 
 .portfolio-items > div {
     margin-bottom: 40px;
+    margin-left: 150px;
 }
 
 .read-buttons > div {
