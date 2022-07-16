@@ -9,7 +9,7 @@ app.use(express.static('public'));
 // Set the view engine to ejs/ tell our Express server to use EJS
 app.set('view engine', 'ejs');
 // Port website will run on
-app.listen(8080);
+app.listen(jiayixin-cindy.github.io);
 
 // *** GET Routes - display pages ***
 // config the routes: Routes tell the server what to do when a user goes to a certain URL in your website
