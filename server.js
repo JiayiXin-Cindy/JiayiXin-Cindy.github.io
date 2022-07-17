@@ -16,5 +16,4 @@ app.listen(80);
 // Root Route
 app.get('/', function (req, res) {
     res.render('pages/index');
-    res.status(301).redirect("https://jiayixin-cindy.github.io")
 });
