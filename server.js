@@ -15,5 +15,5 @@ app.listen(process.env.PORT || 5000);
 // config the routes: Routes tell the server what to do when a user goes to a certain URL in your website
 // Root Route
 app.get('/', function (req, res) {
-    res.render('public/views/pages/index');
+    res.render('views/pages/index');
 });
