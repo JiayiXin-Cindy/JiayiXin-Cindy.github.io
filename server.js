@@ -1,13 +1,13 @@
-// Load Node modules
-var express = require('express');
-//add the EJS Node module to our server
-const ejs = require('ejs');
-// Initialise Express
-var app = express();
-// Render static files
-app.use(express.static('public'));
-// Set the view engine to ejs/ tell our Express server to use EJS
-app.set('view engine', 'ejs');
+const express = require('express');
+const bodyParser = require('body-parser');
+const uuid = require('uuid/v4');
+
+const app = express();
+
+const DUMMY_PRODUCTS = []; // not a database, just some in-memory storage for now
+
+app.use(bodyParser.json());
+
 // Port website will run on
 app.listen(process.env.PORT || 5000);
 
@@ -15,7 +15,7 @@ app.listen(process.env.PORT || 5000);
 // config the routes: Routes tell the server what to do when a user goes to a certain URL in your website
 // Root Route
 app.get('/', function (req, res) {
-    res.render('pages/index');
+    res.render('public/views/pages/index');
 });
 
 app.get('/18', function(req, res) {
