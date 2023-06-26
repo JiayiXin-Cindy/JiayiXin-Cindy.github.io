@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Snippets</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            
+            <div class="left-col">
+                <div class="nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                
+                <div class="nav-link">
+                    <a href="landscapes.html">Landscapes</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="portraits.html">Portraits</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="snippets.html">Snippets</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="comics.html">Comics</a>
+                </div>
+
+                <div class="nav-link">
+                    <a href="about.html">About Me</a>
+                </div>
+            </div>
+            
+            <div class="right-col">
+                <div class="brand">
+                    <div>CINDY XIN</div>
+                </div>
+            </div>
+        </div>
+        <div class="sen">
+            <h1>Click on the drawing to see in details</h1>
+        </div>
+        <div class="content">
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background-image:url(s1.png)"></div>
+
+                    <div class="img-text">
+                        <div class="subtitle">
+                            <a href="s1.html">A Long Day</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background-image:url(s2.png)"></div>
+
+                    <div class="img-text">
+                        <div class="subtitle">
+                            <a href="s2.html">"Say Eggplant!"</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background-image:url(s3.png)"></div>
+
+                    <div class="img-text">
+                        <div class="subtitle">
+                            <a href="s3.html">Tadpole Hunting</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img" style="background-image:url(s5.png)"></div>
+
+                    <div class="img-text">
+                        <div class="subtitle">
+                            <a href="s4.html">Up</a>
+                        </div>
+                    </div>
+                </div>
+
+  
+            </div>
+        </div>
+
+    </div>
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item');
+
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            portfolioItem.childNodes[1].classList.add('img-darken');
+        })
+        portfolioItem.addEventListener('mouseout', () => {
+            portfolioItem.childNodes[1].classList.remove('img-darken');
+        })
+    })
+</script>
+</html>
