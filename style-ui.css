@@ -1,0 +1,100 @@
+/* master */
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* nav */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-col {
+    display: flex;
+    border-bottom: 2px solid rgb(94, 94, 94);
+}
+
+.nav > .left-col > div {
+    margin-right: 19px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.s;
+}
+
+.nav > .right-col > div {
+    margin-right: 19px;
+    font-size: 1.4em;
+    text-transform: uppercase;
+
+}
+
+
+.nav-link a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid black;
+}
+
+.nav-link a:hover {
+    color: black;
+}
+.sen h1 {
+    color:rgb(80, 80, 80);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin-left: 210px;
+    margin-right: 210px;
+}
+
+/* portfolio */
+
+.par {
+    color:rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-img {
+    height:600px;
+    background-position-x: center;
+    background-size:contain; /* have images cut to be the same sizes */
+    background-repeat: no-repeat;
+}
+
+.portfolio-img1 {
+    height:800px;
+    background-position-x: center;
+    background-size:contain; /* have images cut to be the same sizes */
+    background-repeat: no-repeat;
+}
+
+.portfolio-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
