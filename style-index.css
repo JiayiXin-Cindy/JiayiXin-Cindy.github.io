@@ -60,7 +60,7 @@ body {
 }
 
 .cover-img {
-    height: 450px;
+    height: 400px;
     width: 1000px;
     background-size: cover; /* have images cut to be the same sizes */
     background-position:50% 15%;
