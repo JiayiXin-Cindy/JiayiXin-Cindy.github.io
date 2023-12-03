@@ -69,13 +69,6 @@ body {
 
 /* portfolio */
 
-.portfolio-img2 {
-    width:750px;
-    background-position-x: center;
-    background-size:contain; /* have images cut to be the same sizes */
-    background-repeat: no-repeat;
-}
-
 .portfolio-img {
     height:1000px;
     background-position-x: center;
