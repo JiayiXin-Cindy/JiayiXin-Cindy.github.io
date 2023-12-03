@@ -69,15 +69,25 @@ body {
 
 /* portfolio */
 
+.portfolio content {
+    color:rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .portfolio-img {
-    width:600px;
+    height:600px;
     background-position-x: center;
     background-size:contain; /* have images cut to be the same sizes */
     background-repeat: no-repeat;
 }
 
 .portfolio-img1 {
-    width:800px;
+    height:800px;
     background-position-x: center;
     background-size:contain; /* have images cut to be the same sizes */
     background-repeat: no-repeat;
