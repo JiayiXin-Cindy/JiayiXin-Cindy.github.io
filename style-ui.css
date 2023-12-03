@@ -77,6 +77,8 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .portfolio-img {
@@ -87,7 +89,7 @@ body {
 }
 
 .portfolio-img1 {
-    height:800px;
+    height:740px;
     background-position-x: center;
     background-size:contain; /* have images cut to be the same sizes */
     background-repeat: no-repeat;
