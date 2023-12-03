@@ -76,8 +76,20 @@ body {
     background-repeat: no-repeat;
 }
 
+.portfolio-video {
+    background-position-x: center;
+    background-repeat: no-repeat;
+}
+
 .portfolio-img1 {
     height:750px;
+    background-position-x: center;
+    background-size:contain; /* have images cut to be the same sizes */
+    background-repeat: no-repeat;
+}
+
+.portfolio-img2 {
+    width:750px;
     background-position-x: center;
     background-size:contain; /* have images cut to be the same sizes */
     background-repeat: no-repeat;
