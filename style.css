@@ -181,10 +181,10 @@ body {
 }
 
 .resume-image img {
+    width: 50%;
+    margin-left: 200px;
     margin-top: 30px;
     background-position-x: center;
-    height: 500px;
-
 }
 
 .profile-content {
