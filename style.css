@@ -182,10 +182,9 @@ body {
 
 .resume-image img {
     margin-top: 30px;
-    height:1000px;
     background-position-x: center;
-    background-size:contain; /* have images cut to be the same sizes */
-    background-repeat: no-repeat;
+    height: 500px;
+
 }
 
 .profile-content {
